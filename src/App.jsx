@@ -1,11 +1,15 @@
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button'
 import { AccessAlarm, ThreeDRotation } from '@mui/icons-material'
 import { pink } from '@mui/material/colors'
 import HomeIcon from '@mui/icons-material/Home'
+import Typography from '@mui/material/Typography'
 function App() {
   return (
     <>
       <div>Phạm Viết Thắng</div>
+      <Typography variant="body2" color="text.secondary">
+        Test Typography
+      </Typography>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
@@ -18,7 +22,7 @@ function App() {
       <HomeIcon color="disabled" />
       <HomeIcon sx={{ color: pink[100] }} />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
